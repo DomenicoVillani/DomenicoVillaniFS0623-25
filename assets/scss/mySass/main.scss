@@ -1,0 +1,27 @@
+@import "../bootstrap";
+
+#sectionHome{
+    background-color: $indigo-400;
+}
+#ulFooter{
+    list-style: none;
+}
+#sectionHome{
+    color: white;
+    #contText{
+        padding: 5%;
+        h1{
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        p{
+            opacity: 0.5;
+        }
+        button{
+            font-weight: bold;
+        }
+    }
+}
+#sectionText{
+    margin: 10%;
+}
